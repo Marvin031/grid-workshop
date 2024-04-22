@@ -33,7 +33,7 @@ ul {
 
 
 
-.contact-wrapper > * {
+.contact-wrapper>* {
     padding: 2em;
 }
 
@@ -53,18 +53,16 @@ ul {
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    /* here Grid properties */
 }
 
 .contact-form form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* here Grid properties */
 }
 
 
 .contact-form form .block {
-    grid-column: 1 / 3;
+    /* here Grid properties */
 }
 
 .contact-form form button,
@@ -99,11 +97,13 @@ ul {
     background: #000;
 }
 
-.contact-info h4, .contact-info ul, .contact-info p {
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
     text-align: left;
 }
 
 
-.contact-wrapper > * {
+.contact-wrapper>* {
     padding: 2em;
 }
